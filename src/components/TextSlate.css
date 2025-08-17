@@ -15,16 +15,16 @@
 
   font-weight: 500;
   line-height: 48px;
-
   margin: auto 235px;
 }
 
 .tx-container .text p {
   color: rgb(203 213 225);
+  padding-top: 10px;
   margin: auto 0px;
 }
 
-.line {
+.g-line {
   display: inline-block;
   height: 10px;
   width: 100px;
@@ -32,13 +32,12 @@
   background: rgb(16 185 129 / 1);
 }
 
-
 .tx-container .cards {
-    display: flex;
-    justify-content: center;
-    margin-top: 32px;
-    gap: 10px;
-    padding-bottom: 130px;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 10px;
+  padding-bottom: 130px;
 }
 
 .tx-container .cards .card {

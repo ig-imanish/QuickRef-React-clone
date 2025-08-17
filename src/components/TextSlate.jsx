@@ -3,7 +3,7 @@ import "./TextSlate.css"; // Assuming you have a CSS file for styling
 export default function TextSlate() {
   return (
     <div className="tx-container">
-      <span className="line"></span>
+      <span className="g-line"></span>
 
       <div className="text">
         <h1>See something missing?</h1>
