@@ -1,4 +1,4 @@
-import "./HomeMaxContainer.css";
+import "./HomeMaxcontainer.css";
 export default function HomeMaxContainer() {
   return (
     <div className="container">
