@@ -33,6 +33,12 @@ A web-based clone of [quickref.me](https://quickref.me), designed to provide con
 - CSS/Styled Components
 - Node.js
 
+## Tools Used
+
+- remixicon
+- font-awesome
+- Svg
+
 ## License
 
 This project is for educational purposes only.
