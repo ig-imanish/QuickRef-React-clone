@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 6px 16px 0px 16px;
+}
+
+.logo {
+  display: flex;
+}
+.logo .icon {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.name {
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  color: rgb(203, 213, 225);
+}
+.name .green {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(52, 211, 153);
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.search {
+  display: flex;
+}
+.search .search-bar span {
+  margin-left: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  color: rgb(203, 213, 225);
+  /* margin-right: 33px; */
+}
+.cards {
+  display: flex;
+}
+.cards .card {
+  margin: auto 7px;
+}
+
+.cards .card:hover {
+  cursor: pointer;
+}
+.cards .github {
+  margin: 0px 20px;
+}
+.cards .github img {
+  height: 26px;
+}
+.key {
+  background: transparent;
+  padding: 3px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: rgb(203, 213, 225);
+}
+.social-media {
+  display: flex;
+
+  align-items: center;
+}
+
+.social-media .large-twitter {
+  padding: 6px 10px;
+  background: #4487c8;
+  border-radius: 50px;
+}
+
+.social-media .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  padding: 6px;
+  border-radius: 50px;
+  margin: auto 9px;
+}
+
+.social-media .toggle {
+  background: #111827;
+}
+
+.social-media .facebook {
+  background: #415a96;
+}
+.social-media .twitter {
+  background: #4487c8;
+}
+.social-media:hover {
+  cursor: pointer;
+}

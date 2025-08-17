@@ -1,0 +1,56 @@
+/* <span class="inline-block h-1 w-10 rounded-full bg-emerald-500 mt-8 mb-6"></span> */
+
+.tx-container {
+  background: #0f172a;
+  display: block;
+  text-align: center;
+}
+
+.tx-container .text {
+  margin: auto 235px;
+}
+
+.tx-container .text h1 {
+  color: rgb(203 213 225);
+
+  font-weight: 500;
+  line-height: 48px;
+
+  margin: auto 235px;
+}
+
+.tx-container .text p {
+  color: rgb(203 213 225);
+  margin: auto 0px;
+}
+
+.line {
+  display: inline-block;
+  height: 10px;
+  width: 100px;
+  border-radius: 50px;
+  background: rgb(16 185 129 / 1);
+}
+
+
+.tx-container .cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 10px;
+    padding-bottom: 130px;
+}
+
+.tx-container .cards .card {
+  background: #1e293b;
+  padding: 13px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  color: rgb(203, 213, 225);
+  gap: 10px;
+}
+
+.tx-container .cards .card:hover {
+  cursor: pointer;
+}

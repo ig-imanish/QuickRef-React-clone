@@ -1,0 +1,18 @@
+.header{
+    background: #1E293B;
+    height: 400px;
+}
+.header-text {
+    margin-top: 100px;
+    
+    text-align: center;
+    color: rgb(203, 213, 225);
+}
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+h2 {
+    font-weight: 200;
+}
+
