@@ -1,6 +1,6 @@
-# quickref.me Clone
+# quickref.me UI Clone
 
-A web-based clone of [quickref.me](https://quickref.me), designed to provide concise and easy-to-navigate programming reference sheets. This project is built for learning and practicing modern web development skills.
+A web-based UI clone of [quickref.me](https://quickref.me), designed to provide concise and easy-to-navigate programming reference sheets. This project is built for learning and practicing modern web development skills.
 
 ## Screenshots
 

@@ -100,3 +100,104 @@
 .social-media:hover {
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 8px 0 8px;
+  }
+  .right {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 8px 4px 0 4px;
+    gap: 0;
+  }
+  .logo {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    justify-content: flex-start;
+    padding-left: 4px;
+  }
+  .logo .icon {
+    margin-top: 0;
+    margin-right: 6px;
+    height: 36px;
+    width: 36px;
+  }
+  .logo .icon > div {
+    height: 36px !important;
+    width: 36px !important;
+  }
+  .name {
+    font-size: 18px;
+  }
+  .name .green {
+    font-size: 18px;
+  }
+  .right {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 0;
+    gap: 0;
+    padding-right: 4px;
+  }
+  .search {
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: unset;
+    margin-right: 8px;
+  }
+  .search .search-bar {
+    display: none;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0;
+    margin: 0 8px 0 0;
+    width: auto;
+    overflow-x: auto;
+    background: none;
+  }
+  .cards .card {
+    margin: 0 4px;
+  }
+  .cards .github img {
+    height: 20px;
+  }
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-top: 0;
+    justify-content: flex-end;
+    width: auto;
+    background: none;
+  }
+  .social-media .large-twitter {
+    padding: 4px 8px;
+    font-size: 13px;
+  }
+  .social-media .card {
+    height: 18px;
+    width: 18px;
+    padding: 4px;
+    margin: 0 2px;
+  }
+}

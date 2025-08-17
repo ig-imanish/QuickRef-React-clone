@@ -20,7 +20,7 @@
   border-radius: 8px;
 }
 .container .cards .card svg {
- color: white;
+  color: white;
   width: 30px;
   height: 30px;
   /* margin-right: 10px; */
@@ -32,7 +32,7 @@ span {
   font-size: 14px;
 }
 .container .cards .card span {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 .container .cards .card i {
   font-size: 30px;
@@ -42,13 +42,12 @@ span {
   cursor: pointer;
 }
 
-.heading{
+.heading {
   color: white;
   margin: auto 235px;
-
 }
-.heading h1{
-    font-size: 20px;
+.heading h1 {
+  font-size: 20px;
   font-weight: 500;
   line-height: 48px;
 }
@@ -58,4 +57,43 @@ span {
   width: 95px;
   height: 3px;
   margin-top: 7px;
+}
+
+@media (max-width: 900px) {
+  .container .cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto 10px;
+  }
+  .heading {
+    margin: auto 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .container .cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto 15px;
+    gap: 8px;
+  }
+  .container .cards .card {
+    margin: 6px 0;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .heading {
+    margin: 20px 10px 0 10px;
+  }
+  .heading h1 {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .line {
+    width: 60px;
+    height: 2px;
+  }
 }

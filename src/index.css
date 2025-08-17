@@ -1,9 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
-/* background: #1E293B; */
+body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 600px) {
+  body {
+    background: #1e293b;
+    padding: 0;
+  }
 }

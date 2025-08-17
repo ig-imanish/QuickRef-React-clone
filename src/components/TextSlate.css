@@ -53,3 +53,43 @@
 .tx-container .cards .card:hover {
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+  .tx-container .text {
+    margin: auto 20px;
+  }
+  .tx-container .text h1 {
+    margin: auto 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tx-container .text {
+    margin: auto 8px;
+  }
+  .tx-container .text h1 {
+    font-size: 20px;
+    margin: auto 8px;
+    line-height: 32px;
+  }
+  .tx-container .text p {
+    font-size: 14px;
+    padding-top: 6px;
+  }
+  .g-line {
+    width: 60px;
+    height: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .tx-container .cards {
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 40px;
+  }
+  .tx-container .cards .card {
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 30px;
+  }
+}
